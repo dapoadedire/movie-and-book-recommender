@@ -19,7 +19,7 @@ const Header = () => {
     if (currentTheme === "dark") {
       return (
         <SunIcon
-          className="w-10 h-10 text-yellow-500 "
+          className="h-10 w-10 text-yellow-500 "
           role="button"
           onClick={() => setTheme("light")}
         />
@@ -27,7 +27,7 @@ const Header = () => {
     } else {
       return (
         <MoonIcon
-          className="w-10 h-10 text-gray-900"
+          className="h-10 w-10 text-gray-900"
           role="button"
           onClick={() => setTheme("dark")}
         />
@@ -37,18 +37,18 @@ const Header = () => {
 
   return (
     <header
-      className=" flex w-full p-5 justify-between text-sm text-gray-800 place-items-center  border-b
-    dark:text-gray-100 dark:border-gray-700
+      className=" flex w-full place-items-center justify-between border-b p-5 text-sm  text-gray-800
+    dark:border-gray-700 dark:text-gray-100
     "
     >
       {/*left section*/}
-      <div className="flex space-x-4 items-center font-Ubuntu">
+      <div className="flex items-center space-x-4 font-Ubuntu">
         {renderThemeChanger()}
       </div>
 
-      <div className="flex space-x-4 font-Ubuntu items-center">
+      <div className="flex items-center space-x-4 font-Ubuntu">
         <Link
-          className="flex max-w-fit items-center justify-center space-x-2 h-10 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100"
+          className="flex h-10 max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100"
           href="https://github.com/dapoadedire/movie-and-book-recommender"
           target="_blank"
           rel="noopener noreferrer"

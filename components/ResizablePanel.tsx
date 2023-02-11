@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import useMeasure from "react-use-measure";
+import React from "react";
+
 
 export default function ResizablePanel({
   children,
@@ -12,7 +14,7 @@ export default function ResizablePanel({
     <motion.div
       animate={height ? { height } : {}}
       style={height ? { height } : {}}
-      className="relative w-full  mb-20"
+      className="relative mb-20  w-full"
       transition={{ type: "tween", duration: 0.5 }}
     >
       <div ref={ref} className={height ? "absolute inset-x-0" : "relative"}>

@@ -3,16 +3,16 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className=" bg-white border-t w-full sm:pt-2 p-5 flex sm:flex-row justify-center items-center px-3  sm:mb-0 dark:bg-black dark:text-gray-100
-    dark:border-gray-700 
-    sticky top-[calc(100vh-4rem)]
+      className=" sticky top-[calc(100vh-4rem)] flex w-full items-center justify-center border-t bg-white p-5 px-3  dark:border-gray-700 dark:bg-black dark:text-gray-100
+    sm:mb-0 
+    sm:flex-row sm:pt-2
     "
     >
       <div>
         Built by{" "}
         <Link
           href="https://twitter.com/dapo_adedire"
-          className="font-bold hover:underline transition underline-offset-2"
+          className="font-bold underline-offset-2 transition hover:underline"
           aria-label="Dapo Adedire on Twitter"
         >
           Dapo Adedire
@@ -21,7 +21,7 @@ export default function Footer() {
         Template from{" "}
         <Link
           href="https://vercel.com/templates/ai"
-          className="font-bold hover:underline transition underline-offset-2"
+          className="font-bold underline-offset-2 transition hover:underline"
           aria-label="Vercel AI Templates"
         >
           {" "}
@@ -32,7 +32,7 @@ export default function Footer() {
           href="https://openai.com/"
           target="_blank"
           rel="noreferrer"
-          className="font-bold hover:underline transition underline-offset-2"
+          className="font-bold underline-offset-2 transition hover:underline"
         >
           OpenAI.{" "}
         </a>
