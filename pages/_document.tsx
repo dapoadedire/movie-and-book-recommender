@@ -42,7 +42,7 @@ Favourite Movie or Book"
         />
         <meta
           itemProp="image"
-          content="https://movie-and-book-recommender.vercel.app/og-img.png"
+          content="https://movie-and-book-recommender.vercel.app/og-image.png"
         />
 
         {/* <!-- Facebook Meta Tags --> */}
@@ -64,7 +64,7 @@ Favourite Movie or Book"
         />
         <meta
           property="og:image"
-          content="https://movie-and-book-recommender.vercel.app/og-img.png"
+          content="https://movie-and-book-recommender.vercel.app/og-image.png"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -82,11 +82,11 @@ Favourite Movie or Book"
         />
         <meta
           property="og:image"
-          content="https://movie-and-book-recommender.vercel.app/og-img.png"
+          content="https://movie-and-book-recommender.vercel.app/og-image.png"
         />
         <meta
           name="twitter:image"
-          content="https://movie-and-book-recommender.vercel.app/og-img.png"
+          content="https://movie-and-book-recommender.vercel.app/og-image.png"
         />
       </Head>
       <body>
