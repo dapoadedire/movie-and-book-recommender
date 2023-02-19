@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -6,6 +7,7 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
 
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="dapoadedire" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FFFFFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
