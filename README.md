@@ -24,9 +24,9 @@ The [OpenAI GPT-3 API](https://openai.com/api/) (text-davinci-003) and [Vercel E
 2. Clone the repo
 3. After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and generate your API key
 4. Rename the `.env.example` file on the root of the project to `.env`, then paste your API key in the `.env` file
-5. Run `npm install` to install all the dependencies
-6. Run `npm run dev` to start the project
-7. Go to [http://localhost:3000](http://localhost:3000) to see the project running
+5. Run `npm install` to install all the dependencies.
+6. Run `npm run dev` to start the project.
+7. Go to [http://localhost:3000](http://localhost:3000) to see the project running.
 
 ## Contributing
 
