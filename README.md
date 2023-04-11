@@ -36,5 +36,5 @@ If you like this project, please give it a star ⭐️
 
 ## Acknowledgement
 
-Built by [Dapo Adedire](https://twitter.com/dapoadedire).
+Built by [Dapo Adedire](https://twitter.com/dapo_adedire).
 Templates from [Vercel AI Templates](https://vercel.com/templates/ai), powered by [Open AI](https://openai.com/) & [Vercel Edge Functions](https://vercel.com).
