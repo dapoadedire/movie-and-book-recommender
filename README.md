@@ -8,8 +8,8 @@ This simple tool uses [OpenAI GPT-3 API](https://openai.com/api/) to generate mo
 ## How to use
 
 1. Visit [https://movie-and-book-recommender.vercel.app/](https://movie-and-book-recommender.vercel.app/)
-2. In the Favourite Movie or Book input field, enter your favorite book.
-3. Select the type of recommendation you want (movie or book) from the Select a recommender dropdown menu.
+2. In the Favourite Movie or Book input field, enter your favourite book.
+3. Select the type of recommendation you want (movie or book) from the Select a Recommender dropdown menu.
 4. Choose the number of recommendations you want from the Number of Recommendations dropdown menu.
 5. Click the Generate button to get your recommendations.
 6. Click on any of the recommendations to copy the title.
