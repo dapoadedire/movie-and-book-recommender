@@ -1,40 +1,36 @@
-## [Movie/Book Recommender](https://movie-and-book-recommender.vercel.app/)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This simple tool uses [OpenAI GPT-3 API](https://openai.com/api/) to generate movie/book recommendations based on your favorite movie/book.
+## Getting Started
 
-[![Movie/Book Recommender](./public/screenshot-1.png)](https://movie-and-book-recommender.vercel.app/)
-[![Movie/Book Recommender](./public/screenshot-2.png)](https://movie-and-book-recommender.vercel.app/)
+First, run the development server:
 
-## How to use
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-1. Visit [https://movie-and-book-recommender.vercel.app/](https://movie-and-book-recommender.vercel.app/)
-2. In the Favourite Movie or Book input field, enter your favourite book.
-3. Select the type of recommendation you want (movie or book) from the Select a Recommender dropdown menu.
-4. Choose the number of recommendations you want from the Number of Recommendations dropdown menu.
-5. Click the Generate button to get your recommendations.
-6. Click on any of the recommendations to copy the title.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## How it works
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-The [OpenAI GPT-3 API](https://openai.com/api/) (text-davinci-003) and [Vercel Edge streaming](https://vercel.com/features/edge-functions) features are used in this application. Based on the user's input, it creates a prompt, sends it to the GPT-3 API using a Vercel Edge function, and streams the response back to the application.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Running Project Locally
+## Learn More
 
-1. Fork the repo
-2. Clone the repo
-3. After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and generate your API key
-4. Rename the `.env.example` file on the root of the project to `.env`, then paste your API key in the `.env` file
-5. Run `npm install` to install all the dependencies.
-6. Run `npm run dev` to start the project.
-7. Go to [http://localhost:3000](http://localhost:3000) to see the project running.
+To learn more about Next.js, take a look at the following resources:
 
-## Contributing
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-If you want to contribute to this project, please read the [contributing guide](./CONTRIBUTING.md). If you have any ideas or suggestions, feel free to open an issue or a pull request.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-If you like this project, please give it a star ⭐️
+## Deploy on Vercel
 
-## Acknowledgement
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Built by [Dapo Adedire](https://twitter.com/dapo_adedire).
-Templates from [Vercel AI Templates](https://vercel.com/templates/ai), powered by [Open AI](https://openai.com/) & [Vercel Edge Functions](https://vercel.com).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
